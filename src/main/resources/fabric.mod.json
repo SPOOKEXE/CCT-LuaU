@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "cct-luau",
+	"id": "cctluau",
 	"version": "${version}",
 	"name": "ComputerCraft Tweaked - LuaU",
 	"description": "ComputerCraft Tweaked with a LuaU backend.",
@@ -11,11 +11,11 @@
 		"homepage": "https://github.com/SPOOKEXE/CCT-LuaU",
 		"sources": "https://github.com/SPOOKEXE/CCT-LuaU"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "MIT",
+	"icon": "assets/cctluau/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"server": [
+		"main": [
 			"net.cct.luau.CCTLuaUServer"
 		],
 		"client": [
