@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "cct-luau",
+	"version": "${version}",
+	"name": "ComputerCraft Tweaked - LuaU",
+	"description": "ComputerCraft Tweaked with a LuaU backend.",
+	"authors": [
+		"@SPOOKEXE (NuclearTPose)"
+	],
+	"contact": {
+		"homepage": "https://github.com/SPOOKEXE/CCT-LuaU",
+		"sources": "https://github.com/SPOOKEXE/CCT-LuaU"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"server": [
+			"net.cct.luau.CCTLuaUServer"
+		],
+		"client": [
+			"net.cct.luau.CCTLuaUClient"
+		]
+	},
+	"mixins": [
+
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
